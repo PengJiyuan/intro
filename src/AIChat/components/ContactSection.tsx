@@ -21,7 +21,7 @@ const ContactSection: React.FC = () => {
               </svg>
               <div>
                 <Text className="text-gray-500 block text-sm">Email</Text>
-                <Text className="text-gray-800">john.doe@example.com</Text>
+                <Text className="text-gray-800">pengjiyuan@example.com</Text>
               </div>
             </div>
             
@@ -43,7 +43,7 @@ const ContactSection: React.FC = () => {
               </svg>
               <div>
                 <Text className="text-gray-500 block text-sm">Website</Text>
-                <Text className="text-gray-800">www.johndoe.dev</Text>
+                <Text className="text-gray-800">pengjiyuan.github.io</Text>
               </div>
             </div>
             

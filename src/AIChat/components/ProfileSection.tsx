@@ -17,10 +17,10 @@ const ProfileSection: React.FC = () => {
         <Col span={24}>
           <div className="flex items-center">
             <Avatar size={80} className="mr-4 border-2 border-indigo-400">
-              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Doe" />
+              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="PengJiyuan" />
             </Avatar>
             <div>
-              <Title heading={3} className="gradient-text m-0">John Doe</Title>
+              <Title heading={3} className="gradient-text m-0">PengJiyuan</Title>
               <Text className="text-gray-600 block">Senior Frontend Developer</Text>
               <Space className="mt-2">
                 <div className="flex items-center text-xs text-gray-500">
@@ -33,7 +33,7 @@ const ProfileSection: React.FC = () => {
                   <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1 text-indigo-500">
                     <rect width="20" height="16" x="2" y="4" rx="2"></rect>
                     <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
-                  </svg> john.doe@example.com
+                  </svg> pengjiyuan@example.com
                 </div>
                 <div className="flex items-center text-xs text-gray-500">
                   <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1 text-indigo-500">

@@ -42,8 +42,8 @@ const AIChat: React.FC = () => {
       type: 'ai',
       content: (
         <div>
-          <Text className="text-lg font-medium text-gray-800">👋 Hello! I'm <span className="gradient-text font-bold">AI Assistant</span></Text>
-          <Text className="block mt-2 text-gray-700">Welcome to John Doe's interactive portfolio. I'll be your guide today.</Text>
+          <Text className="text-lg font-medium text-gray-800">👋 Hello! I'm <span className="gradient-text font-bold">PengJiyuan</span></Text>
+          <Text className="block mt-2 text-gray-700">Welcome to my interactive portfolio. I'll be your guide today.</Text>
         </div>
       ),
       delay: 1000
@@ -53,7 +53,7 @@ const AIChat: React.FC = () => {
       type: 'ai',
       content: (
         <div>
-          <Text className="block text-gray-700">What would you like to know about John?</Text>
+          <Text className="block text-gray-700">What would you like to know about me?</Text>
           <div className="flex flex-wrap gap-2 mt-3">
             <Button type="outline" size="small" className="hover-scale text-indigo-600 border-indigo-300 hover:border-indigo-600" onClick={() => handleSectionChange('profile')}>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1">
@@ -178,7 +178,7 @@ const AIChat: React.FC = () => {
               content: (
                 <div>
                   <Text className="block text-gray-700 mb-3">
-                    Great! You've explored all sections of John's portfolio. I hope you found the information helpful.
+                    Great! You've explored all sections of PengJiyuan's portfolio. I hope you found the information helpful.
                   </Text>
                   <div className="bg-indigo-50 p-4 rounded-lg border border-indigo-100">
                     <Title heading={6} className="text-indigo-600 mb-2">Would you like to:</Title>
@@ -193,7 +193,7 @@ const AIChat: React.FC = () => {
                           <line x1="16" x2="16" y1="2" y2="6"></line>
                           <line x1="8" x2="8" y1="2" y2="6"></line>
                           <line x1="3" x2="21" y1="10" y2="10"></line>
-                        </svg> Schedule a meeting with John
+                        </svg> Schedule a meeting with PengJiyuan
                       </Button>
                       <Button 
                         type="outline" 
@@ -204,7 +204,7 @@ const AIChat: React.FC = () => {
                           <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                           <polyline points="7 10 12 15 17 10"></polyline>
                           <line x1="12" x2="12" y1="15" y2="3"></line>
-                        </svg> Download John's resume
+                        </svg> Download PengJiyuan's resume
                       </Button>
                       <Button 
                         type="outline" 
@@ -214,7 +214,7 @@ const AIChat: React.FC = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
                           <rect width="20" height="16" x="2" y="4" rx="2"></rect>
                           <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
-                        </svg> Send an email to John
+                        </svg> Send an email to PengJiyuan
                       </Button>
                       <Button 
                         type="primary" 
@@ -321,7 +321,7 @@ const AIChat: React.FC = () => {
         userMessage = {
           id: Date.now(),
           type: 'user',
-          content: "I'd like to schedule a meeting with John"
+          content: "I'd like to schedule a meeting with PengJiyuan"
         };
         
         aiResponse = {
@@ -330,7 +330,7 @@ const AIChat: React.FC = () => {
           content: (
             <div>
               <Text className="block text-gray-700 mb-3">
-                Great! John would be happy to meet with you. Please use the calendar link below to find a time that works for you.
+                Great! PengJiyuan would be happy to meet with you. Please use the calendar link below to find a time that works for you.
               </Text>
               <Button 
                 type="primary" 
@@ -356,7 +356,7 @@ const AIChat: React.FC = () => {
         userMessage = {
           id: Date.now(),
           type: 'user',
-          content: "I'd like to download John's resume"
+          content: "I'd like to download PengJiyuan's resume"
         };
         
         aiResponse = {
@@ -365,7 +365,7 @@ const AIChat: React.FC = () => {
           content: (
             <div>
               <Text className="block text-gray-700 mb-3">
-                Here's John's resume for download. It includes more details about his experience and qualifications.
+                Here's PengJiyuan's resume for download. It includes more details about his experience and qualifications.
               </Text>
               <Button 
                 type="primary" 
@@ -390,7 +390,7 @@ const AIChat: React.FC = () => {
         userMessage = {
           id: Date.now(),
           type: 'user',
-          content: "I'd like to send an email to John"
+          content: "I'd like to send an email to PengJiyuan"
         };
         
         aiResponse = {
@@ -399,7 +399,7 @@ const AIChat: React.FC = () => {
           content: (
             <div>
               <Text className="block text-gray-700 mb-3">
-                You can reach John directly at john.doe@example.com or use the button below to compose an email.
+                You can reach PengJiyuan directly at pengjiyuan@example.com or use the button below to compose an email.
               </Text>
               <Button 
                 type="primary" 
@@ -492,7 +492,7 @@ const AIChat: React.FC = () => {
         content: (
           <div>
             <Text className="block text-gray-700">
-              Thanks for your message! I'm an AI assistant showcasing John's portfolio. 
+              Thanks for your message! I'm an AI assistant showcasing PengJiyuan's portfolio. 
               Please use the buttons below to navigate through different sections.
             </Text>
             <div className="flex flex-wrap gap-2 mt-3">
@@ -610,7 +610,7 @@ const AIChat: React.FC = () => {
             <IconRobot />
           </Avatar>
           <div className="ml-3 text-left">
-            <Title heading={5} className="m-0 text-gray-800">John Doe's Portfolio AI</Title>
+            <Title heading={5} className="m-0 text-gray-800">PengJiyuan's Portfolio AI</Title>
             <Text className="text-xs text-gray-500">Interactive Experience</Text>
           </div>
         </div>
@@ -657,7 +657,7 @@ const AIChat: React.FC = () => {
           <div className="flex-1 relative">
             <TextArea 
               className="chat-input pr-12 py-2 rounded-full resize-none"
-              placeholder="Ask me anything about John..."
+              placeholder="Ask me anything about PengJiyuan..."
               style={{ height: '44px', paddingRight: '50px' }}
               value={inputValue}
               onChange={handleInputChange}
